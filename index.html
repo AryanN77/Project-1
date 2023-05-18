@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="stylesheet.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital@1&display=swap" rel="stylesheet">
+    <title>Password Generator</title>
+</head>
+
+<body>
+    <div class="conatiner">
+        <div class="innercont">
+            <h1 id="heading">Password Generator</h1>
+            <div class="row">
+                <label for="alpha">Contains Alphabets: </label>
+                <input type="checkbox" id="alpha">
+            </div>
+            <div class="row">
+                <label for="nums">Contains Numbers:</label>
+                <input type="checkbox" id="nums">
+            </div>
+            <div class="row">
+                <label for="special">Contains Special Characters: </label>
+                <input type="checkbox" id="special">
+            </div>
+            <div class="row">
+                <label for="fun">Funny Password: </label>
+                <input type="checkbox" id="fun">
+            </div>
+            <div class="row">
+                <input type="text" id="text-area" placeholder="">
+            </div>
+            <button id="btn-sub">Generate</button>
+        </div>
+    </div>
+
+    <script src="logic.js"></script>
+</body>
+
+</html>

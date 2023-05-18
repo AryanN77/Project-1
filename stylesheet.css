@@ -1,0 +1,59 @@
+*{
+    margin:0px;
+}
+.conatiner {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url("https://files.123freevectors.com/wp-content/original/142245-orange-stripes-background-illustrator.jpg") center center/cover;
+}
+
+.innercont {
+    border: 5px solid white;
+    border-radius: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    height: 50%;
+}
+
+
+.row {
+    margin: 10px auto;
+    display: flex;
+    font-size: 1.1rem;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+#btn-sub {
+    margin: 10px auto;
+}
+
+#heading{
+    color:white;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+#btn-sub{
+    font-family: 'Josefin Sans', sans-serif;
+    height: 25px;
+    width: 100px;
+    font-size: 1.1rem;
+}
+
+#text-area{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    height: 30px;
+    width: 200px;
+    font-size: 1.3rem;
+    border: 3px solid black;
+    border-radius: 10%;
+}
