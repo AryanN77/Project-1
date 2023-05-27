@@ -1,4 +1,4 @@
-# Project---1
+# Project-1
 Created My First Project:- A Random Password Generator
 Used Several Concepts Of JavaScripts:-
 1.OOP's
